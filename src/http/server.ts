@@ -1,5 +1,5 @@
 import fastify, { FastifyRequest, FastifyReply } from "fastify";
-import z, { string } from "zod";
+import z from "zod";
 import { PrismaClient } from "@prisma/client";
 
 const app = fastify();
